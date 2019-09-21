@@ -22,7 +22,7 @@ section {
 }
 
 .background {
-    background-image: url("../images/dot-grid.png");
+    background-image: url("../images/light-grey-terrazzo.png");
     width: 100%
 }
 
@@ -35,6 +35,14 @@ section {
 img {
     height: 150px;
     width: 200px;
+}
+
+.portfolio {
+    background: #4aaaa5;
+    color: white;
+    width: 20%;
+    padding: 12px;
+    text-align: center;
 }
 
 footer {
