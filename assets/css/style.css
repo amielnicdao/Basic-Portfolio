@@ -1,11 +1,12 @@
 body {
     background: #ffffff;
     border-color: #dddddd;
-    /*background-image: url("../images/dot-grid.png");*/
+    
+    
 }
 
-section {
-    width: 960px;
+section { 
+    border-bottom: 2px solid #cccccc;   
 }
 
 .header {
@@ -21,20 +22,26 @@ section {
     
 }
 
+
 .background {
     background-image: url("../images/light-grey-terrazzo.png");
-    width: 100%
+    width: 100%;
+    overflow: auto;
 }
 
 .wrapper {
     background: white;
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
+
+
 }
 
 img {
     height: 150px;
     width: 200px;
+    float: left;
+    margin: 10px;
 }
 
 .portfolio {
