@@ -47,8 +47,8 @@ a {
     background-image: url("../images/light-grey-terrazzo.png");
     width: 100%;
     height: 650px;
-    overflow: auto;
-    border-top: 2px solid #cccccc;    
+    overflow: auto; 
+    border-top: 2px solid #cccccc;     
 }
 
 .wrapper {
@@ -59,7 +59,7 @@ a {
     height: 425px; 
     overflow: auto;
     padding: 15px;
-
+    background-size:100%;
 }
 
 h2 {
@@ -73,9 +73,14 @@ p {
 img {
     height: 150px;
     width: 200px;
-    float: left;
-    
-    
+    float: left; 
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+    float: left; 
+    padding: 10px;
 }
 
 .portfolio{
@@ -83,12 +88,13 @@ img {
     color: white;
     width: 20%;
     padding: 6px;
-    text-align: center;      
+    text-align: center;     
 }
 
 .form {
     color: #777777;
 }
+
 .submit {
     background: #4aaaa5;
     color: white;
@@ -98,9 +104,9 @@ footer {
     background: #666666;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    height: 30px;
     position: absolute;
     left: 0;
     bottom: 0;
