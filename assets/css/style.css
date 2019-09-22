@@ -27,7 +27,7 @@ h1, h2 {
 
 a {
      padding: 5px;  
-     color: #666666; 
+     color: #777777; 
      text-decoration: none; 
  }
 
@@ -58,7 +58,7 @@ a {
     margin-left: 275px;
     height: 425px; 
     overflow: auto;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -67,26 +67,27 @@ h2 {
 }
 
 p {
-    color: #666666;
+    color: #777777;
 }
 
 img {
     height: 150px;
     width: 200px;
     float: left;
-    margin: 10px;
+    
+    
 }
 
 .portfolio{
     background: #4aaaa5;
     color: white;
     width: 20%;
-    padding: 12px;
+    padding: 6px;
     text-align: center;      
 }
 
 .form {
-    color: #666666;
+    color: #777777;
 }
 .submit {
     background: #4aaaa5;
